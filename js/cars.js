@@ -8,14 +8,30 @@ Para ello vamos a utilizar un prompt para que almacene la información
 Después daremos la orden para que se vea en el navegador y en consola
 */
 
-<script type="text/javascript">
+//Primero un script en el que pedimos el nombre del/a usuario/a
 
-var nombre = name(prompt("Por favor, dime tu nombre"));
-var marca1 = marca(prompt("¿Cuál era la marca de tu primer coche?"));
-var marca2 = marca(prompt("¿Cuál era la marca de tu segundo coche?"));
-var marca3 = marca(prompt("¿Cuál era la marca de tu tercer coche?"));
+var nombre = "Por favor, dinos tu nombre y apellidos";
 
-document.write(`nombre = ${name}, marca del primer coche = ${marca1}, marca del segundo coche = ${marca2}, y marca del tercer coche = ${marca3}`);
-console.log(`nombre = ${name}, marca del primer coche = ${marca1}, marca del segundo coche = ${marca2}, y marca del tercer coche = ${marca3}`);
+document.write(`Nombre completo ${nombre}`);
+console.log(`Nombre completo ${nombre}`);
 
-</script>
+//Ahora le pedimos la marca de su primer coche 
+
+var marca1 = "Dinos la marca, modelo y año de tu primer coche, separado por comas";
+
+document.write(`${marca1}`);
+console.log(`${marca1}`);
+
+//Script con la marca de su segundo coche 
+
+var marca2 = "¿Cuáles son los datos de tu segundo coche?";
+
+document.write(`Datos del segundo coche ${marca2}`);
+console.log(`Datos del segundo coche ${marca2}`);
+
+//Script con la marca de su tercer coche 
+
+var marca3 = "Por último, ¿cuáles son los datos de tu tercer coche?";
+
+document.write(`Datos del tercer coche ${marca3}`);
+console.log(`Datos del tercer coche ${marca3}`);
