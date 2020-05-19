@@ -85,16 +85,32 @@
           </section>
 
           <script type="text/javascript">
+            var nombre = (prompt("Por favor, dinos tu nombre y apellidos")); 
+            document.write(`Nombre completo ${nombre}`);
+            console.log(`Nombre completo ${nombre}`);
+          </script>
+          <br>
+          <script type="text/javascript">
+          var marca1 = (prompt("Dinos la marca, modelo y año de tu primer coche, separado por comas"));
 
-            var nombre = name(prompt("Por favor, dime tu nombre"));
-            var marca1 = marca(prompt("¿Cuál era la marca de tu primer coche?"));
-            var marca2 = marca(prompt("¿Cuál era la marca de tu segundo coche?"));
-            var marca3 = marca(prompt("¿Cuál era la marca de tu tercer coche?"));
-            
-            document.write(`nombre = ${name}, marca del primer coche = ${marca1}, marca del segundo coche = ${marca2}, y marca del tercer coche = ${marca3}`);
-            console.log(`nombre = ${name}, marca del primer coche = ${marca1}, marca del segundo coche = ${marca2}, y marca del tercer coche = ${marca3}`);
-            
-            </script>
+          document.write(`Datos del primer coche ${marca1}`);
+          console.log(`Datos del primer coche ${marca1}`);
+          </script>
+          <br>
+          <script type="text/javascript">
+          var marca2 = (prompt("¿Cuáles son los datos de tu segundo coche?"));
+
+          document.write(`Datos del segundo coche ${marca2}`);
+          console.log(`Datos del segundo coche ${marca2}`);
+          </script>
+          <br>
+          <script type="text/javascript">     
+          var marca3 = (prompt("Por último, ¿cuáles son los datos de tu tercer coche?"));
+
+          document.write(`Datos del tercer coche ${marca3}`);
+          console.log(`Datos del tercer coche ${marca3}`);
+          </script>
+
       
           <article>
             <!--
